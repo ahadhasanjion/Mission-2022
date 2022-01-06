@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*========================================================================
+                            COMMON CSS END
+========================================================================*/
+
+
+#first_section {
+    display: flex;
+    margin-top: 60px;
+}
+
+.half_width {
+    width: 50%;
+}
+
+.first_part {
+    margin-left: 3%;
+}
+
+.first_part_text h1 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    border-left: 5px solid #FF5959;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.first_part_text h1 span {
+    color: #FFAD5A;
+}
+
+.first_part_text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.first_part_text p span {
+    color: #FFAD5A;
+}
+
+.first_part_img {
+    margin-left: 16%;
+}
+
+.first_part_text a {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #FF5959;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#second_section {
+    padding-top: 80px;
+}
+
+.second_part {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mymission h2 {
+    font-size: 40px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.second_part .mission_card {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.second_part .mission_card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: start;
+}
+
+
+.second_part .mission_card p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: start;
+}
+
+.second_part .mission {
+    background: #EEF6F7;
+}
+
+.second_part .goals {
+    background: #FFF4D6;
+}
+
+.second_part .visions {
+    background: #FFEFEF;
+}
+
+#last_part {
+    background: black;
+    padding: 50px 0;
+}
+
+#last_part h2 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+#last_part h2 span {
+    color: #FF5959;
+}
+
+#last_part {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#third_section {
+    display: flex;
+    padding-top: 80px;
+    margin-left: 80px;
+}
+
+.third_part_img {
+    margin-left: 80px;
+}
+
+.third_part_text {
+    padding-left: 200px;
+    margin-top: 60px;
+    width: 50%;
+}
+
+.third_part_text h2 {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #353535;
+}
+
+.third_part_text h2 span {
+    display: block;
+}
+
+.third_part_text p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+}
+
+.third_part_text a {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #FF5959;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#fourth_section {
+    display: flex;
+    padding: 80px 0;
+    margin-left: 80px;
+}
+
+.fourth_part_text{
+    width: 50%;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+
+.fourth_part_text h2 {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #353535;
+}
+
+.fourth_part_text p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+}
+
+.fourth_part_text a {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #FF5959;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.fourth_part_img{
+    width: 50%;
+    padding-right: 250px;
+
+}
